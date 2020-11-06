@@ -1,0 +1,176 @@
+body{
+    background-color:#5b78a7;
+    margin: 0;
+
+}
+.container{
+    height: 400px;
+    width: 500;
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 30px;
+    margin: 10px;
+}
+div h1{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin: 5px ;
+    font-size: 130px;
+}
+
+#icono{
+    width: 100px;
+    height: 100px;
+   float: left;
+}
+
+p{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+
+}
+p strong {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.category-tile { 
+    position: relative;
+    overflow: hidden;
+    width: 200px;
+    height: 330px;
+    margin: 0 auto 15px;
+    border: 10px;
+  }
+  .category-tile span {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    font-size: 1.2em;
+    color: #fff;
+    line-height: .2;
+  }
+  .ME
+  {
+      font-size: 20px;
+      text-align: center;
+      color: #000000;
+      border: 2px solid #ffffff ;
+      background-color: #ffffff;
+      height: 35px;
+      width: 170px;
+   
+  }
+  .description{
+      font-size: 15px;
+  }
+  .table{
+      margin: 10px;
+      height: 30px;
+      width: 170px;
+  }
+  div a:link{
+      text-decoration: none;
+      margin-top: 5px;
+  }
+  div a{
+      text-align: center;
+      color: #FF6161;
+      
+  }
+  header{
+      border: 2px solid #000000;
+      background-color: #000000;
+      height: 170px;
+  }
+
+/*MENU*/
+#menu{
+    padding: 35px;
+}
+#menu ul {
+    list-style:none;
+    margin:0;
+    padding:0;
+   }
+   
+   
+   #menu ul li {
+    background-color:#2e518b;
+   }
+   
+   
+   #menu ul a {
+    display:block;
+    color:#fff;
+    text-decoration:none;
+    font-weight:400;
+    font-size:15px;
+    padding:10px;
+    font-family:"HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform:uppercase;
+    letter-spacing:1px;
+   }
+   
+   
+   #menu ul li {
+    position:relative;
+    float:left;
+    margin:0;
+    padding:0;
+   }
+   
+   
+   #menu ul li:hover {
+    background:#5b78a7;
+   }
+
+   /*CARRUSEL*/
+   .container--head {
+    background: #000000;
+  }
+  
+  .tooltip-carousel {
+    position: absolute;
+    z-index: 11;
+    border-radius: 50%;
+  }
+  
+  .caraousel-tooltip-item {
+    display: none;
+  }
+  
+  .caraousel-tooltip-item.active {
+    display: block;
+  }
+  div h5{
+    font-size: 200px;
+  }
+
+
+@media(min-width:992px) and (max-width:1199px){
+    .table{
+        margin: 10px;
+    }
+}
+@media(min-width:768px) and (max-width:991px){
+    .table{
+        margin: 10px;
+    }
+}
+@media(max-width:767px){
+    .table{
+        margin: 10px;
+    }
+}
+
+
+
+
+
+
